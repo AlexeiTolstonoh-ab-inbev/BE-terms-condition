@@ -1,19 +1,26 @@
-
+tr, td, th {
+    border: 1px solid #cccccc;
+    border-spacing: 0;
+}
 ul { list-style: none; }
 .listContainer{
-    padding: 20px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    margin-left: 90px;
+    width: 100%;
+}
+.orderListContainer{
+    display: flex;
+    flex-direction: column;
+    min-width: 320px;
 }
 .titleContainer{
+    width: 100%;
     font-weight: 500;
     letter-spacing: 4px;
-    color: #8f1e2a;
-    font-size: 3.2em;
-    font-family: SackersGothicStd-Light;
-    margin-bottom: 2rem;
+    color: black;
+    font-size: 2.2em;
+    margin-bottom: 1rem;
 }
 ul{
     width: 100%;
@@ -21,4 +28,37 @@ ul{
 }
 li{
     padding: 5px;
+}
+.textContainer{
+    color: black;
+}
+.listWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.optionContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+@media screen and ( min-width: 1026px ) {
+    .optionContainer{
+        justify-content: flex-end;
+        padding: 50px
+    }
+    .listWrapper{
+        justify-content: center;
+    }
+    .orderListContainer{
+        max-width: 23%;
+    }
+    .listContainer{
+        max-width: 90%;
+        padding: 20px;
+    }
+    .langChooser{
+        margin-right: 20px;
+        align-self: flex-end;
+    }
 }
