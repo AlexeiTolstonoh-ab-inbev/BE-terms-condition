@@ -3,7 +3,6 @@ import style from './../termsConditions/termsConditions.css'
 
 const NlTermsConditions = () => {
 	return (
-		<div>
 			<div className={style.listWrapper}>
 				<div className={style.listContainer}>
 					<section className={style.textContainer}>
@@ -119,7 +118,7 @@ const NlTermsConditions = () => {
 						<p>Bent u evenwel Klant Consument, dan heeft u recht op een levering niet later dan 30 dagen na de sluiting van de Aankoop, of bij gebreke daarvan, minstens binnen een door u schriftelijk aangegeven aanvullende termijn die redelijk is gelet op de concrete omstandigheden. Indien wij ook niet binnen deze aanvullende termijn kunnen leveren, dan mag U de Aankoop annuleren, zonder enige schadevergoeding verschuldigd te zijn.</p>
 						<p>8.3 Indien de leveringsplaats of omstandigheden met betrekking tot de levering wijzigen op verzoek van de Koper, of indien de Koper hiertoe onjuiste of onvolledige informatie heeft bezorgd, zijn wij gerechtigd om kosten die voortvloeien uit dergelijke wijziging of onjuiste informatie te factureren aan de Koper.</p>
 						<p>8.4 Wij werken samen met BME en PostNL om u de beste bezorgservice te bieden. Post NL biedt levering bij u thuis of op het werk aan, met een interactieve opvolging van de leveringsstatus.</p>
-						<p>Gelieve voor meer informatie het Leveringsbeleid (https://www.postnl.be/fr/reception/reception-de-colis-en-provenance-de-belgique/ ) van PARTNER te raadplegen.</p>
+						<p>Gelieve voor meer informatie het Leveringsbeleid  van <a href={"https://www.postnl.be/fr/reception/reception-de-colis-en-provenance-de-belgique/"}>PARTNER te raadplegen.</a></p>
 						<p>Bestelling</p>
 						<p>Leveringskosten</p>
 						<p>rat 24x25 cl</p>
@@ -149,7 +148,7 @@ const NlTermsConditions = () => {
 						<p>11.1 Het is ook in uw belang dat klachten inzake geleverde Producten zo spoedig mogelijk na de vaststelling ervan en gemotiveerd aan ons worden meegedeeld. Voeg bij uw klacht voldoende bewijsstukken, zoals foto’s, ter staving van uw klacht. Klachten dienen verzonden te worden naar consumer.care.be@ab-inbev.com</p>
 						<p>11.2 Klachten over zichtbare gebreken: indien u bij de Levering of het uitpakken zichtbare gebreken vaststelt, dan dient u ons uw klachten betreffende die zichtbare gebreken op straffe van verval, te melden binnen een termijn van twee maanden vanaf het ontdekken van het gebrek. Het is evenwel zeer stellig aangeraden om die Klachten zo snel mogelijk mee te delen en te bewijzen.</p>
 						<p>11.3 Klachten over verborgen gebreken: U dient ons klachten betreffende verborgen gebreken in de Producten, op straffe van verval, te melden binnen twee maanden vanaf het ontdekken van het gebrek.</p>
-						<p>11.4 U dient elke rechtsvordering met betrekking tot zichtbare of verborgen gebreken in de Producten op straffe van verval in te stellen binnen een termijn van één jaar vanaf het ontdekken van het gebrek, zonder dat deze termijn korter zal zijn dan de garantietermijn bedoeld in artikel 12.1. Als Klant Consument kan U eveneens een klacht indienen via het Europees platform voor onlinegeschillenbeslechting (https://ec.europa.eu/consumers/odr/main/index.cfm? event=main.home.show&lng=NL)</p>
+						<p>11.4 U dient elke rechtsvordering met betrekking tot zichtbare of verborgen gebreken in de Producten op straffe van verval in te stellen binnen een termijn van één jaar vanaf het ontdekken van het gebrek, zonder dat deze termijn korter zal zijn dan de garantietermijn bedoeld in artikel 12.1. Als Klant Consument kan U eveneens een klacht indienen via het <a href={"https://ec.europa.eu/consumers/odr/main/index.cfm? event=main.home.show&lng=NL"}>Europees platform voor onlinegeschillenbeslechting</a> </p>
 					</section>
 
 					<section className={style.textContainer}>
@@ -201,7 +200,6 @@ const NlTermsConditions = () => {
 						<p>19.4 Indien een bepaling van onderhavige algemene voorwaarden nietig en/of onuitvoerbaar zou blijken, blijven de andere bepalingen niettemin onverkort van kracht en geven partijen de bevoegde rechtsmacht de bevoegdheid om de getroffen bepaling te matigen binnen de grenzen van het recht op een wijze die de oorspronkelijke bepaling zo dicht mogelijk benadert.</p>
 					</section>
 				</div>
-		</div>
 		</div>
 	)
 }

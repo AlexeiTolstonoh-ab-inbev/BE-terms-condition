@@ -3,7 +3,6 @@ import style from './../termsConditions/termsConditions.css'
 
 const FrTermsConditions = () => {
 	return (
-		<div>
 			<div className={style.listWrapper}>
 				<div className={style.listContainer}>
 					<section className={style.textContainer}>
@@ -119,7 +118,7 @@ const FrTermsConditions = () => {
 						<p>Toutefois, si vous êtes un Client Consommateur, vous avez droit à une livraison au plus tard 30 jours après la clôture de l’achat ou, à défaut, au moins dans un délais supplémentaire qui vous sera indiqué par écrit et qui est raisonnable compte tenu des circonstances concrètes. Si nous ne sommes pas en mesure de livrer dans ce délais supplémentaire, vous pouvez annuler l’achat sans être tenu de payer une quelconque indemnité.</p>
 						<p>8.3    Si le lieu de livraison ou les circonstances entourant la livraison changent à la demande de l’acheteur, ou si l’acheteur a fourni des informations incorrectes ou incomplètes à cet effet, nous sommes en droit de facturer à l’acheteur les frais découlant de cette modification ou de ces informations incorrectes.</p>
 						<p>8.4 Nous travaillons avec BME et PostNL pour vous offrir le meilleur service de livraison. PostNL offre une livraison à domicile ou au lieu de travail, avec suivi interactif de l’état de la livraison</p>
-						<p>Pour plus d'informations, veuillez vous référer à la politique de livraison de PARTNER (https://www.postnl.be/fr/reception/reception-de-colis-en-provenance-de-belgique/ ).</p>
+						<p>Pour plus d'informations, veuillez vous référer à la <a href={"https://www.postnl.be/fr/reception/reception-de-colis-en-provenance-de-belgique/ "}>politique de livraison de PARTNER.</a></p>
 						<p>Commande</p>
 						<p>Frais de livraison</p>
 						<p>Casier 24x25 cl</p>
@@ -148,7 +147,7 @@ const FrTermsConditions = () => {
 						<p>11.1   Il est également dans votre intérêt que les réclamations concernant les Produits livrés nous soient communiquées dès que possible après leur constatation et motivées. Veuillez joindre à votre plainte des preuves suffisantes pour étayer votre plainte. Nous devons à notre tour être en mesure de soumettre votre plainte clairement et aussi rapidement que possible au fabricant du produit. Les plaintes doivent être envoyées à consumer.care.be@ab-inbev.com.</p>
 						<p>11.2   Réclamations pour vices apparents : si vous constatez des vices apparents lors de la livraison ou du déballage, vous devez nous faire part de vos réclamations pour vices apparents dans un délai de deux mois à compter de la découverte du défaut, sous peine de déchéance. Toutefois, il est fortement recommandé de communiquer et de prouver ces plaintes le plus tôt possible.</p>
 						<p>11.3   Réclamations pour vices cachés : vous devez nous informer des réclamations concernant les vices cachés des Produits, sous peine de déchéance d’un délais  de deux mois à compter de la découverte du défaut, sous peine de déchéance de la réclamation.</p>
-						<p>11.4   Vous devez intenter toute action en justice relative aux vices apparents ou cachés des Produits dans un délai d’un an à compter de la découverte du défaut, sans que ce délai soit inférieur au délai de garantie visé à l’article 12.1. En tant que Client Consommateur, vous pouvez également déposer une réclamation via la plateforme européenne de résolution des litiges en ligne. (https://ec.europa.eu/consumers/odr/main/ index.cfm?event=main.home2.show&lng=FR)</p>
+						<p>11.4   Vous devez intenter toute action en justice relative aux vices apparents ou cachés des Produits dans un délai d’un an à compter de la découverte du défaut, sans que ce délai soit inférieur au délai de garantie visé à l’article 12.1. En tant que Client Consommateur, vous pouvez également déposer une réclamation via la plateforme <a href={"https://ec.europa.eu/consumers/odr/main/ index.cfm?event=main.home2.show&lng=FR"}>européenne de résolution des litiges en ligne.</a> </p>
 					</section>
 
 					<section className={style.textContainer}>
@@ -199,7 +198,6 @@ const FrTermsConditions = () => {
 						<p>19.4     Si l’une des dispositions des présentes conditions générales s’avérait nulle et/ou inapplicable, les autres dispositions resteront néanmoins pleinement en vigueur et les parties accorderont à la juridiction compétente le pouvoir d’atténuer la disposition concernée dans les limites de la loi d’une manière aussi proche que possible de la disposition originale.</p>
 					</section>
 				</div>
-		</div>
 		</div>
 	)
 }

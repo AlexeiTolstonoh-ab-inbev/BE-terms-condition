@@ -5,9 +5,9 @@ tr, td, th {
 ul { list-style: none; }
 .listContainer{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: column;
-    width: 100%;
+    max-width: 100%;
 }
 .orderListContainer{
     display: flex;
@@ -19,7 +19,7 @@ ul { list-style: none; }
     font-weight: 500;
     letter-spacing: 4px;
     color: black;
-    font-size: 2.2em;
+    font-size: 1em;
     margin-bottom: 1rem;
 }
 ul{
@@ -35,7 +35,9 @@ li{
 .listWrapper{
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
+    max-width: 100%;
+    padding: 0 20px;
 }
 .optionContainer{
     display: flex;

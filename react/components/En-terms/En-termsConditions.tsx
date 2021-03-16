@@ -3,7 +3,6 @@ import style from './../termsConditions/termsConditions.css'
 
 const EnTermsConditions = () => {
 	return (
-		<div>
 			<div className={style.listWrapper}>
 				<div className={style.listContainer}>
 					<section className={style.textContainer}>
@@ -115,7 +114,7 @@ const EnTermsConditions = () => {
 						<p>If, however, you are a Customer Consumer, you shall be entitled to delivery no later than 30 days after the conclusion of the Purchase, or failing that, at least within an additional period specified by you in writing that is reasonable having regard to the concrete circumstances. If we are also unable to deliver within this additional period, You may cancel the Purchase, without being liable for any compensation.</p>
 						<p>8.3 If the place of delivery or circumstances relating to delivery change at the request of the Buyer, or if the Buyer has provided incorrect or incomplete information to this effect, we shall be entitled to invoice the Buyer for any costs arising from such change or incorrect information.</p>
 						<p>8.4 We cooperate with BME and PostNL to offer you the best delivery service. Post NL offers delivery to your home or place of work, with interactive tracking of delivery status.</p>
-						<p>Please refer to PARTNER's Delivery Policy (https://www.postnl.be/fr/reception/reception-de-colis-en-provenance-de-belgique/ ) for more information.</p>
+						<p>Please refer to <a href={"https://www.postnl.be/fr/reception/reception-de-colis-en-provenance-de-belgique/"}>PARTNER's Delivery Policy</a> for more information.</p>
 						<p>Order</p>
 						<p>Delivery charges </p>
 						<p>Crate 24x25 cl</p>
@@ -145,7 +144,7 @@ const EnTermsConditions = () => {
 							<p>11.1 It is also in your interest that complaints concerning delivered Products are communicated to us as soon as possible after their discovery and with reasons. Please enclose with your complaint sufficient evidence, such as photographs, to substantiate your complaint. Complaints should be sent to consumer.care.be@ab-inbev.com</p>
 							<p>11.2 Complaints concerning visible defects: if you notice visible defects upon delivery or unpacking, you must inform us of your complaints concerning these visible defects within two months from the discovery of the defect, under penalty of cancellation. It is however strongly recommended to communicate and prove these complaints as soon as possible.</p>
 							<p>11.3 Complaints concerning hidden defects: You must notify us of any complaints concerning hidden defects in the Products within two months of discovering the defect, under penalty of lapse.</p>
-							<p>11.4 You must bring any legal action in relation to visible or hidden defects in the Products within a period of one year from the date of discovery of the defect, under penalty of cancellation, without this period being less than the warranty period referred to in Article 12.1. As a Consumer Customer, you may also submit a complaint via the European online dispute resolution platform (https://ec.europa.eu/consumers/odr/main/index.cfm? event=main.home.show&lng=EN).</p>
+							<p>11.4 You must bring any legal action in relation to visible or hidden defects in the Products within a period of one year from the date of discovery of the defect, under penalty of cancellation, without this period being less than the warranty period referred to in Article 12.1. As a Consumer Customer, you may also submit a complaint via the <a href={"https://ec.europa.eu/consumers/odr/main/index.cfm? event=main.home.show&lng=EN"}>European online dispute resolution platform.</a></p>
 						</section>
 
 					<section className={style.textContainer}>
@@ -197,7 +196,6 @@ const EnTermsConditions = () => {
 						<p>19.4 If any provision of these General Terms and Conditions should prove to be void and/or unenforceable, the other provisions shall nevertheless remain in full force and effect and the parties shall authorise the competent jurisdiction to mitigate the provision affected within the limits of the law in a manner as close as possible to the original provision.</p>
 					</section>
 				</div>
-		</div>
 		</div>
 	)
 }

@@ -10,7 +10,6 @@ const TermsConditions = () => {
 		setLanguage(evt.target.value)
 	}
 	return (
-		<div>
 			<div className={style.listWrapper}>
 				<div className={style.optionContainer}>
 					<select className={style.langChooser} onChange={optionChange}>
@@ -23,7 +22,6 @@ const TermsConditions = () => {
 				{langueage === 'en' ? <EnTermsConditions/> : langueage === 'fr' ? <FrTermsConditions/> : <NlTermsConditions/>}
 
 			</div>
-		</div>
 	)
 }
 
