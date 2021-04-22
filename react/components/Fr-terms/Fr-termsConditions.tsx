@@ -44,7 +44,7 @@ const FrTermsConditions = () => {
 						<p>1.4  Client Consommateur:</p>
 						<p>Vous êtes une personne physique et faites affaire avec nous à des fins qui sont principalement en dehors de votre activité commerciale, artisanale ou professionnelle.</p>
 						<p>1.5  Site/shop:</p>
-						<p>www.danny.delivery</p>
+						<p>https://jupilershop.be/</p>
 						<p>1.6  Enregistrement:</p>
 						<p>L’enregistrement sur notre site selon la procédure d’enregistrement visée à l’article 3.</p>
 						<p>1.7  Produits:</p>

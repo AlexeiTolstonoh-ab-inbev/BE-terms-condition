@@ -44,7 +44,7 @@ const NlTermsConditions = () => {
 						<p>1.4. Klant Consument:</p>
 						<p>U bent een natuurlijke persoon en handelt met ons voor doeleinden die hoofdzakelijk buiten Uw handels-, bedrijfs-, ambachts- of beroepsactiviteit vallen.</p>
 						<p>1.5. Website/Webwinkel:</p>
-						<p>www.danny.delivery</p>
+						<p>https://jupilershop.be</p>
 						<p>1.6. Registratie:</p>
 						<p>De registratie op onze Website volgens de registratieprocedure bedoeld in artikel 3.</p>
 						<p>1.7. Producten:</p>
@@ -121,7 +121,7 @@ const NlTermsConditions = () => {
 						<p>Gelieve voor meer informatie het Leveringsbeleid  van <a href={"https://www.postnl.be/fr/reception/reception-de-colis-en-provenance-de-belgique/"}>PARTNER te raadplegen.</a></p>
 						<p>Bestelling</p>
 						<p>Leveringskosten</p>
-						<p>rat 24x25 cl</p>
+						<p>Krat 24x25 cl</p>
 						<p>GRATIS</p>
 						<p>Gelijk of meer dan 24 blikken</p>
 						<p>GRATIS</p>

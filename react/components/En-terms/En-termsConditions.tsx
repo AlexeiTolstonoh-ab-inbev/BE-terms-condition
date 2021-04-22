@@ -41,7 +41,7 @@ const EnTermsConditions = () => {
 						<p>1.4. Customer Consumer:</p>
 						<p>You are a natural person and transact with Us for purposes primarily outside Your trade, business, craft or profession.</p>
 						<p>1.5. Website/Webshop:</p>
-						<p>www…danny.delivery</p>
+						<p>https://jupilershop.be/</p>
 						<p>1.6. Registration:</p>
 						<p>The registration on our Website according to the registration procedure referred to in Article 3.</p>
 						<p>1.7. Products:</p>
